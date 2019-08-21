@@ -38,4 +38,31 @@ The form of a waycast
 
 
 
+    ━━━━━━━━━━━━
+     Intimation
+    ────────────
+        - Indicating what is important and familiar to the waycaster,
+          and of formal significance to others.
+        private engagement
+            - A direct engagement of a waycaster with the way.
+            - To declare a private engagement, the waycaster uses a jointer with a private referent.
+            / The referent might be a private planning document maintained by the waycaster, for example.
+              Or it might be nothing concrete in itself, but mere reference to it carries meaning
+              for the waycaster.
+            - Where the surjoint referrer sits in the way model indicates where the waycaster
+              engages in the way.
+                : re `surjoint referrer` see `^^referrer clause$` @ `^^ Associative reference$`
+                  @ http://reluk.ca/project/Breccia/language_definition.brec
+        private referent
+        - The referent of a schemeless URI reference that refers outside the waycast.
+        - It is taken as being private to the waycaster.
+            / Private, but not necessarily secret.
+        - The reference is malformed, however, if relative to the present document.
+            / E.g. it must start with a ‘/’, or not contain a `..` component,
+              or however best to document this case.
+            / So to help avoid a typo that accidently declares a private engagement, for instance,
+              or makes a private pointer.
+
+
+
                                         \ Copyright © 2019, Michael Allan and contributors.  Licence MIT.
