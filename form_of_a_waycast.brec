@@ -1,0 +1,41 @@
+The form of a waycast
+
+    - A waycast is a directory enclosing the waysource and ancillary components of a way declaration.
+    - Among the ancillary components is a certificate of authority.
+
+
+
+    ━━━━━━━━━━━
+     Authority
+    ───────────
+        - The waycaster retains authority over the waycast in all its copies.
+        - A copy of a waycast is authoritative iff:
+            - Its certificate of authority is valid.
+            - Its location is among the `authoritative_waycast_locations` of the certificate.
+        certificate of authority
+            - The waycast includes a certificate of authority issued by the waycaster.
+            - It is a document that contains:
+                / The precise form here is yet to be documented.
+                waycaster_identifier
+                    - The identifier of the waycaster.
+                authoritative_waycast_locations
+                    - The locations of the nominally authoritative copies of the waycast.
+                    - Each location has the form of a URI.
+                        : re `form of a URI` see https://tools.ietf.org/html/rfc3986#section-3
+                timestamp
+                    - A timestamp including a date.
+            - A certificate is valid iff:
+                - It is properly signed, viz. by a cryptographic private key
+                  that matches its `waycaster_identifier`, itself a public key.
+                    / The precise form of signature is yet to be documented.
+                - No other known certificate among waycast copies has all of:
+                     - the same `waycaster_identifier`
+                     - a proper signature
+                     - an equal or later `timestamp`
+                     - a difference in the rest of its content
+        identifier of a waycaster
+            - The identifier of a waycaster is a cryptographic public key.
+
+
+
+                                        \ Copyright © 2019, Michael Allan and contributors.  Licence MIT.
