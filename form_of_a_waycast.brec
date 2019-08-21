@@ -49,7 +49,7 @@ The form of a waycast
             / The referent might be a private planning document maintained by the waycaster, for example.
               Or it might be nothing concrete in itself, but mere reference to it carries meaning
               for the waycaster.
-            - Where the surjoint referrer sits in the way model indicates where the waycaster
+            - Where the surjoining referrer sits in the way model indicates where the waycaster
               engages in the way.
                 : re `surjoint referrer` see `^^referrer clause$` @ `^^ Associative reference$`
                   @ http://reluk.ca/project/Breccia/language_definition.brec
