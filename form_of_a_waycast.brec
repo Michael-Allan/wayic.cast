@@ -54,14 +54,25 @@ The form of a waycast
                 : re `surjoint referrer` see `^^referrer clause$` @ `^^ Associative reference$`
                   @ http://reluk.ca/project/Breccia/language_definition.brec
         private referent
-        - The referent of a schemeless URI reference that refers outside the waycast.
-        - It is taken as being private to the waycaster.
-            / Private, but not necessarily secret.
-        - The reference is malformed, however, if relative to the present document.
-            / E.g. it must start with a ‘/’, or not contain a `..` component,
-              or however best to document this case.
-            / So to help avoid a typo that accidently declares a private engagement, for instance,
-              or makes a private pointer.
+            - The referent of either:
+                - a URI with a scheme other than `http` or `https`
+                    : re `URI` see https://tools.ietf.org/html/rfc3986#section-3
+                    / e.g `file:/foo/bar`, `notebook:2019-8-23`, `private:`
+                - a URI with a host component that resolves to the loopback interface
+                    : re `host component` see https://tools.ietf.org/html/rfc3986#section-3.2.2
+                    / e.g. `http://localhost/foo/bar`
+                - a URI reference that lacks a host component and refers outside the waycast
+                    : re `URI reference`  see https://tools.ietf.org/html/rfc3986#section-4.1
+                    / the URI reference being either a relative reference, or a URI without a host component
+                        : re `relative reference` see https://tools.ietf.org/html/rfc3986#section-4.2
+            - It is taken as being private to the waycaster.
+                : re `private` see @ http://reluk.ca/project/wayic/refractory/lexicon.brec
+            - The reference is malformed, however, if relative to the present document.
+                / E.g. its path must start with a ‘/’, or not contain a `..` segment,
+                  or however best to document this case.
+                    : re `path`: see https://tools.ietf.org/html/rfc3986#section-3.3
+                / So to help avoid a typo that accidently declares a private engagement, for instance,
+                  or makes a private pointer.
 
 
 
