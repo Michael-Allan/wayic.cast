@@ -1,5 +1,10 @@
 Definition of terms for project wayic.cast
 
+    cast
+        : join https://www.lexico.com/en/definition/cast
+        : prepend @ `^^4.2 Arrange and present in a specified form or style.$`
+          @ https://www.lexico.com/en/definition/cast
+            : join `^^─ verb, with object$` @ `^^waycast$`
     waycast
         ─ noun
             - A directory enclosing waysource and ancillary components that together comprise
