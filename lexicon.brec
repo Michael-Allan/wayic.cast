@@ -2,13 +2,14 @@ Definition of terms for project wayic.cast
 
     waycast
         ─ noun
-            - A directory enclosing the waysource and ancillary components of a way declaration.
+            - A directory enclosing waysource and ancillary components that together comprise
+              a way declaration.
                 : see `^^- A waycast is .* enclosing the waysource and .* components .* way declaration`
                   @ form_of_a_waycast.brec
                 / The wayical analogue of a nucleoid or nucleolus in a unicellular organism.
                     : see http://reluk.ca/project/proto-wayic/origins/doc.task
-        ─ verb
-            - Form or publish a way declaration using a waycast.
+        ─ verb, with object
+            - Form a way declaration (for a given way) using a waycast.
 
 
                                         \ Copyright © 2019, Michael Allan and contributors.  Licence MIT.

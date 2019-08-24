@@ -1,6 +1,7 @@
 The form of a waycast
 
-    - A waycast is a directory enclosing the waysource and ancillary components of a way declaration.
+    - A waycast is a directory enclosing waysource and ancillary components that together comprise
+      a way declaration.
     - Among the ancillary components is a certificate of authority.
 
 
