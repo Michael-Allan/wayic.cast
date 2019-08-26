@@ -2,7 +2,11 @@ The form of a waycast
 
     - A waycast is a directory enclosing waysource and ancillary components that together comprise
       a way declaration.
-    - Among the ancillary components is a certificate of authority.
+    ancillary components
+        • certificate of authority
+    waysource
+        - The waysource includes one or more wayhead nodes.
+        - These model the caster’s way, the heads modelling the goal, and the bodies the chosen means.
 
 
 
@@ -14,6 +18,7 @@ The form of a waycast
             - Its certificate of authority is valid.
             - Its location is among the `authoritative_waycast_locations` of the certificate.
         certificate of authority
+            / An ancillary component of the waycast.
             - The waycast includes a certificate of authority issued by the waycaster.
             - It is a document that contains:
                 / The precise form here is yet to be documented.
