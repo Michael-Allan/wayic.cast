@@ -3,10 +3,10 @@ The form of a waycast
     - A waycast is a directory enclosing waysource and ancillary components that together comprise
       a way declaration.
     ancillary components
-        • certificate of authority
+        - The ancillary components include a certificate of authority.
     waysource
-        - The waysource includes one or more wayhead nodes.
-        - These model the caster’s way, the heads modelling the goal, and the bodies the chosen means.
+        - The waysource includes one thoroughbrec.
+        - It models the caster’s way.
 
 
 
