@@ -61,7 +61,7 @@ The form of a waycast
         private referent
             + Reconcile among Breccia.browsable, wayic.cast and wayic.browsable.
                 : join @ `^^private referent$`
-                  @ http://reluk.ca/project/Breccia/browsable/plan_of_action.brec
+                  @ http://reluk.ca/project/Breccia/browsable/action_plan.brec
             - The referent of either:
                 - a URI that has a scheme, and the scheme is other than `http` or `https`
                     : re `http\b` see https://tools.ietf.org/html/rfc7230#section-2.7.1
