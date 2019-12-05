@@ -1,7 +1,8 @@
 Definition of terms for project wayic.cast
 
     cast
-        : join `^^─ verb, with object$` @ `^^waycast$`
+        ─ verb, with object
+            : join @ `^^waycast$`
     waycast
         ─ noun
             - A directory enclosing waysource and ancillary components which together comprise
