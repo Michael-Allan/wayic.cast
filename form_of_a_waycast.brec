@@ -59,9 +59,9 @@ The form of a waycast
                 : re `surjoint referrer` see `^^referrer clause$` @ `^^ Associative reference$`
                   @ http://reluk.ca/project/Breccia/language_definition.brec
         private referent
-            + Reconcile among Breccia.browsable, wayic.cast and wayic.browsable.
+            + Reconcile among Breccia.Web.imager, wayic.cast and wayic.Web.imager.
                 : join @ `^^private referent$`
-                  @ http://reluk.ca/project/Breccia/browsable/action_plan.brec
+                  @ http://reluk.ca/project/Breccia/Web/imager/action_plan.brec
             - The referent of either:
                 - a URI that has a scheme, and the scheme is other than `http` or `https`
                     : re `http\b` see https://tools.ietf.org/html/rfc7230#section-2.7.1
