@@ -43,42 +43,4 @@ The form of a waycast
 
 
 
-    ━━━━━━━━━━━━
-     Intimation
-    ────────────
-        - Indicating what is important and familiar to the waycaster,
-          and of formal significance to others.
-        private engagement
-            - A direct engagement of a waycaster with the way.
-            - To declare a private engagement, the waycaster uses a jointer with a private referent.
-            / The referent might be a private planning document maintained by the waycaster,
-              for example.  Or it might be nothing concrete in itself, but mere reference to it
-              carries meaning for the waycaster.
-            - Where the surjoining referrer sits in the way model indicates where the waycaster
-              engages in the way.
-                : re `surjoint referrer` see `^^referrer clause$` @ `^^ Associative reference$`
-                  @ http://reluk.ca/project/Breccia/language_definition.brec
-        private referent
-            + Reconcile among Breccia.Web.imager, wayic.cast and wayic.Web.imager.
-                : join @ `^^private referent$`
-                  @ http://reluk.ca/project/Breccia/Web/imager/action_plan.brec
-            - The referent of either:
-                - a URI that has a scheme, and the scheme is other than `http` or `https`
-                    : re `http\b` see https://tools.ietf.org/html/rfc7230#section-2.7.1
-                    : re `https\b` see https://tools.ietf.org/html/rfc7230#section-2.7.2
-                    / e.g `file:/foo/bar`, `notebook:2019-8-23`, `private:`
-                - a URI with a host component that resolves to the loopback interface
-                    : re `host component` see https://tools.ietf.org/html/rfc3986#section-3.2.2
-                    / e.g. `http://localhost/foo/bar`
-                - a URI reference that lacks a host component and refers outside the waycast
-                    : re `URI reference`  see https://tools.ietf.org/html/rfc3986#section-4.1
-                    - Such a reference is malformed, however, if it begins with a ‘/’.
-                        : re `URI reference`  see https://tools.ietf.org/html/rfc3986#section-4.1
-                        / Whether the referent is inside or outside the waycast would be formally
-                          indeterminate in this case, varying with the location of the waycast.
-            - It is taken as being private to the waycaster.
-                : re `private` see @ http://reluk.ca/project/wayic/refractory/lexicon.brec
-
-
-
                                         \ Copyright © 2019, Michael Allan and contributors.  Licence MIT.
