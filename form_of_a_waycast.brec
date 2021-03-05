@@ -19,8 +19,8 @@ The form of a waycast
         certificate of authority
             / An ancillary component of the waycast.
             - The waycast includes a certificate of authority issued by the waycaster.
-            - It is a document that contains:
-                / The precise form here is yet to be documented.
+            - It is a file that contains:
+                / The precise form here is yet to be detailed.
                 waycaster_identifier
                     - The identifier of the waycaster.
                 authoritative_waycast_locations
@@ -32,7 +32,7 @@ The form of a waycast
             - A certificate is valid iff:
                 - It is properly signed, viz. by a cryptographic private key
                   that matches its `waycaster_identifier`, itself a public key.
-                    / The precise form of signature is yet to be documented.
+                    / The precise form of signature is yet to be detailed.
                 - No other known certificate among waycast copies has all of:
                      - the same `waycaster_identifier`
                      - a proper signature
@@ -43,4 +43,4 @@ The form of a waycast
 
 
 
-                                                         \ Copyright © 2019  Michael Allan.  Licence MIT.
+                                                   \ Copyright © 2019, 2021  Michael Allan.  Licence MIT.
