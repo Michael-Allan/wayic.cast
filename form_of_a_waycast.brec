@@ -27,6 +27,7 @@ The form of a waycast
                     - The locations of the nominally authoritative copies of the waycast.
                     - Each location has the form of a URI.
                         : re `form of a URI` see https://tools.ietf.org/html/rfc3986#section-3
+                    - The canonical location must be included.
                 timestamp
                     - A timestamp including a date.
             - A certificate is valid iff:
@@ -40,6 +41,23 @@ The form of a waycast
                      - a difference in the rest of its content
         identifier of a waycaster
             - The identifier of a waycaster is a cryptographic public key.
+
+
+
+    ━━━━━━━━━━━━━━━━━━━━
+     Canonical location
+    ────────────────────
+        - Each waycast has a standard, public location.
+        canonicalize( URI `u` )
+            if( `u` refers outside of a waycast )
+                throw+ Uncast referent
+            deem+ `w` the waycast wherein `u` refers;
+                  `p` a relative path, that of `u` relativized against the location of `w`
+                  `aa` the `authoritative_waycast_locations` of `w`
+            if( `aa` excludes `w` )
+                + Set `w` to a waycast of `aa`.
+            + Set `u` to the resolution of `p` against the canonical location of `w`
+            return+ `u`
 
 
 
