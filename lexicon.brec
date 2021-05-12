@@ -5,6 +5,8 @@ Definition of terms for the waycast project
     cast
         ─ verb, with object
             : join @ `^^waycast$`
+        ─ adjective
+            - Associated with a waycast.
     extracast
         ─ adjective
             - Situated or occuring outside a waycast or waycasts.
@@ -15,6 +17,9 @@ Definition of terms for the waycast project
             - Situated or occuring within a waycast or waycasts.
                 / After the definition of ‘intracellular’ in the Oxford English Dictionary.
                     : see https://www.lexico.com/en/definition/intracellular
+    uncast
+        ─ adjective
+            - Not associated with a waycast.
     waycast
         ─ noun
             - A directory enclosing waysource and ancillary components which together comprise
