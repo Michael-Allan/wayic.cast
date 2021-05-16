@@ -50,7 +50,7 @@ The form of a waycast
     ━━━━━━━━━━━━━━━━━━━━
      Canonical location
     ────────────────────
-        - Each waycast has a standard, public location.
+        - Each waycast has a standard, public (canonical) location.
         canonicalize( URI `u` )
             if( `u` refers outside of a waycast )
                 throw+ Uncast referent
