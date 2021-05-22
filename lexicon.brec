@@ -20,6 +20,9 @@ Definition of terms for the waycast project
     uncast
         ─ adjective
             - Not associated with a waycast.
+    waycaster
+        ─ noun
+            - The author of a waycast.
     waycast
         ─ noun
             - A directory enclosing waysource and ancillary components which together comprise
@@ -37,4 +40,4 @@ Definition of terms for the waycast project
             - Declaration of aimed ways of life.
 
 
-                                                    \ Copyright © 2019-2020  Michael Allan.  Licence MIT.
+                                                    \ Copyright © 2019-2021  Michael Allan.  Licence MIT.
