@@ -51,7 +51,10 @@ The form of a waycast
      Canonical location
     ────────────────────
         - Each waycast has a standard, public (canonical) location.
+        - In form, it is a URI ending with `/`.
+            : re `URI` see https://tools.ietf.org/html/rfc3986#section-3
         canonicalize( URI `u` )
+            : re `URI` see https://tools.ietf.org/html/rfc3986#section-3
             if( `u` refers outside of a waycast )
                 throw+ Uncast referent
             deem+ `w` the waycast wherein `u` refers;
