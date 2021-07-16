@@ -2,9 +2,6 @@ The form of a waycast
 
     - A waycast is a directory enclosing waysource and ancillary components which together comprise
       a way declaration.
-    - It must not contain at its base a file or directory named `:`.
-        : see `─╴‘(:)/’╶── authority ─` @ `^^Subsumption$` @
-          http://reluk.ca/project/wayic/model/form_and_compilation.brec
     ancillary components
         - The ancillary components include a certificate of authority.
     waysource
