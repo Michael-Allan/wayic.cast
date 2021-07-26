@@ -17,6 +17,8 @@ Definition of terms for the waycast project
             - Situated or occuring within a waycast or waycasts.
                 / After the definition of ‘intracellular’ in the Oxford English Dictionary.
                     : see https://www.lexico.com/en/definition/intracellular
+    proper path
+        - (of a waycast file) The path of the file relative to the waycast.
     uncast
         ─ adjective
             - Not associated with a waycast.
