@@ -5,6 +5,8 @@ Definition of terms for the waycast project
     cast
         ─ verb, with object
             : join @ `^^waycast$`
+        ─ noun
+            - A waycast.
         ─ adjective
             - Associated with a waycast.
     extracast
