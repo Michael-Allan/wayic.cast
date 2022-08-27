@@ -2,7 +2,7 @@ The form of a waycast
 
     - A waycast is a directory enclosing waysource and ancillary components which together comprise
       a way declaration.
-    + Further require that the directory be named `waycast` and directly contain a file named `way.brec`.
+    + Further require that the directory be named `way` and directly contain a file named `README.brec`.
         - This is soley to enable identifying a waycast as such, pending some other means of doing so.
             : see e.g. `isIntracast` @ non-fractal ~/work/wayic/Web/imager/WaybrecHTMLTransformer.java
         : private
