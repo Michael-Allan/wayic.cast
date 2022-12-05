@@ -31,7 +31,7 @@ Definition of terms for the waycast project
         ─ noun
             - A directory enclosing waysource and ancillary components which together comprise
               a way declaration.
-                : see `^^- A waycast is .* enclosing waysource and .* components .* way declaration` @
+                : see `^^- A waycast is.*enclosing waysource and.*components.*way declaration`s @
                   form_of_a_waycast.brec
                 / The wayical analogue of a nucleoid or nucleolus in a unicellular organism.
                     : see http://reluk.ca/project/proto-wayic/origins/doc.task
